@@ -1,19 +1,15 @@
 # Ultralytics YOLO 🚀, AGPL-3.0 license
 
-path: /home/ubuntu/Research_Project/Visdrone_images
-train: train/images
-val: val/images
-test: test/images
+path: ../
+train: VisDrone2019-DET-train/images
+val: VisDrone2019-DET-val/images
+test: VisDrone2019-DET-test-dev/images
 
 # Classes
 names:
-  0: pedestrian
-  1: people
-  2: bicycle
-  3: car
-  4: van
-  5: truck
-  6: tricycle
-  7: awning-tricycle
-  8: bus
-  9: motor
+  0: people
+  1: bicycle
+  2: car
+  3: truck
+  4: bus
+  5: motor
