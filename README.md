@@ -182,6 +182,13 @@ python3 rt-detr-train.py
 
 Once all these files are done, the results of these training datasets are saved in ```results``` folder inside a folder is created for each model and their weights are saved.
 
+**Note: You can also download the already Pre-trained model results into the project, as the github has the file size limitation, the results were not present in github. Now use the below command to down the results from google drive**
+
+```
+gdown https://drive.google.com/file/d/1Si2C6F4s0pjmi1KalrIhiva8MDF8pT02/view?usp=drive_link --fuzzy
+```
+After downloading the results, put the results folder inside the project ```Research_Project/result```
+
 **Step 2**
 
 Now to test the model, execute the following commands
